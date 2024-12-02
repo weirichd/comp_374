@@ -110,7 +110,7 @@ Now that we have the shape of our general purpose curve fitting function, how do
 * Brief discussion of recurrant neural networks
     * Another example of a specialized network structure to handle a specific kind of data
     * Recently fallen out of favor after invention of transformers (discussed in 2nd half of semester)
-   
+ 
 #### Key Vocab:
 
 * Neural Network Architecture
@@ -124,7 +124,6 @@ Now that we have the shape of our general purpose curve fitting function, how do
 What are generative models
 
 * "Generation" really just means regression w/ a specific kind of target
-* Multi-target models
 * Autoencoders
 * Basics on Diffusion techniques
 
