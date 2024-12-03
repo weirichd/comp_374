@@ -5,36 +5,21 @@ Below is a first attempt at a full course on deep learning.
 This is still a draft and is subject to revision.
 
 
-## Core concepts covered in the class
+# Unit 1
 
-* Neural Network Archetrcture
-* Tensorflow and Keras
-* Training Neural Networks
-* Loss functions
-* Gradient Descent & Back Propogation
-* Data preprocessing
-* Convolutional Neural Networks
-* Applications of CNNs
-* RNNs (??)
-* Transformer Models and Attention
-* Evaluation and Interpretation of Models
-* Limitations and Challenges
-* Demo and Exam
+## Week 1: Mathematical Background
 
-
-# Week 1: Mathematical Background
-
-## Topic Description
+### Topic Description
 An introduction to the mathematical foundations essential for understanding deep learning. This week focuses on derivatives, vector mathematics, matrix multiplication, and basic examples of machine learning models (linear regression and logistic regression). These concepts provide the groundwork for understanding optimization and classification.
 
-## Relevance and Applications
+### Relevance and Applications
 The mathematical concepts introduced this week are essential for the development and understanding of machine learning models:
 - **Derivatives** and **gradients** are the backbone of optimization algorithms like gradient descent, which is used in training machine learning models.
 - **Vector operations** and **matrix multiplication** are vital for handling multidimensional data and efficient computation in deep learning frameworks.
 - **Linear regression** and **logistic regression** serve as stepping stones for understanding more complex models. They are widely used in applications like predicting housing prices, detecting spam emails, and other real-world classification and regression tasks.
 - **Jupyter Notebooks** are a current industry standard for data analysis and machine learning model development.
 
-## Module Outcomes
+### Module Outcomes
 By the end of this week, students should be able to:
 1. Compute basic derivatives, including partial derivatives, and understand their significance.
 2. Perform vector operations such as dot products and calculate vector norms.
@@ -43,7 +28,7 @@ By the end of this week, students should be able to:
 5. Grasp the role of derivatives and gradients in optimization for linear and logistic regression.
 6. Understand how to work with Python and Jypyter environments.
 
-## Key Vocabulary
+### Key Vocabulary
 - **Derivative**: A measure of how a function changes as its input changes.
 - **Gradient**: A vector representing the direction and rate of fastest increase of a function.
 - **Vector**: A quantity with both magnitude and direction, used to represent multidimensional data.
@@ -52,19 +37,19 @@ By the end of this week, students should be able to:
 - **Logistic Regression**: A classification model that predicts probabilities of categorical outcomes.
 - **Optimization**: The process of finding the best parameters for a model to minimize error.
 
-## Indicators of Mastery
+### Indicators of Mastery
 - Solve problems involving derivatives, vector arithmetic, and matrix multiplication.
 - Compute gradients for multivariable functions and interpret their geometric significance.
 - Implement and explain linear regression and logistic regression models.
 - Apply derivatives and matrix operations to optimize simple machine learning models.
 - Analyze the performance of linear and logistic regression in basic classification and regression tasks.
 
-# Week 2: Introduction to Neural Networks
+## Week 2: Introduction to Neural Networks
 
-## Topic Description
+### Topic Description
 This week introduces the concept of neural networks as a general-purpose solution for complex function approximation. Students will explore the types of problems neural networks are designed to solve, the principles behind their design, and the distinction between shallow and deep networks. The session also includes a first hands-on experience with TensorFlow and Keras.
 
-## Relevance and Applications
+### Relevance and Applications
 Neural networks form the backbone of modern deep learning. They are:
 - **Powerful function approximators** capable of fitting highly complex datasets.
 - **Widely applicable**, addressing challenges in image recognition, natural language processing, recommendation systems, and more.
@@ -72,7 +57,7 @@ Neural networks form the backbone of modern deep learning. They are:
 
 Learning the basics of neural networks sets the stage for exploring more advanced architectures and applications in subsequent weeks.
 
-## Module Outcomes
+### Module Outcomes
 By the end of this week, students should be able to:
 1. Understand the types of problems neural networks aim to solve and the requirements of a general-purpose function approximator.
 2. Explain why neural networks are effective for solving complex, nonlinear problems.
@@ -80,7 +65,7 @@ By the end of this week, students should be able to:
 4. Differentiate between shallow and deep networks and their respective use cases.
 5. Familiarize themselves with TensorFlow and Keras as tools for building and training neural networks.
 
-## Key Vocabulary
+### Key Vocabulary
 - **Neural Network**: A computational model inspired by the structure of the brain, used to approximate complex functions.
 - **Activation Function**: A mathematical function applied to a neuron's output, introducing nonlinearity to the model.
 - **Shallow Network**: A neural network with fewer layers, typically easier to train but less capable of modeling complex relationships.
@@ -90,18 +75,20 @@ By the end of this week, students should be able to:
 - **Keras**: A high-level API in TensorFlow designed for easy and rapid model building.
 - **Universal Approximation Theorem**: A mathematical theorem stating that a feed-forward neural network with at least one hidden layer and a non-linear activation function can approximate any continuous function to arbitrary precision, given sufficient neurons in the hidden layer.
 
-## Indicators of Mastery
+### Indicators of Mastery
 - Describe neural networks as mathematical functions and explain their advantages for solving nonlinear problems.
 - Differentiate between shallow and deep networks, articulating their strengths and limitations.
 - Build and train a basic neural network using TensorFlow and Keras.
 - Explain the role of activation functions and their importance in introducing nonlinearity.
 - Evaluate the performance of a neural network and identify scenarios where neural networks are an appropriate solution.
-# Weeks 3 & 4: Training Neural Networks
 
-## Topic Description
+
+## Weeks 3 & 4: Training Neural Networks
+
+### Topic Description
 This module teaches the process of training neural networks, focusing on the key techniques and concepts required to optimize their performance. Students will explore gradient descent, stochastic gradient descent, and other essential training methods, as well as techniques for evaluating and improving model performance. The session concludes with hands-on practice training a neural network using Keras.
 
-## Relevance and Applications
+### Relevance and Applications
 Training is a critical step in the development of neural networks:
 - Optimization techniques like gradient descent enable neural networks to learn from data by minimizing error.
 - Evaluation strategies such as the train/test split and learning curves are essential for understanding model performance and avoiding overfitting.
@@ -109,7 +96,7 @@ Training is a critical step in the development of neural networks:
 
 Mastering these concepts is foundational for building effective machine learning models in any application.
 
-## Module Outcomes
+### Module Outcomes
 By the end of this week, students should be able to:
 1. Explain the concept of training in the context of neural networks.
 2. Understand and apply gradient descent and stochastic gradient descent to optimize neural networks.
@@ -118,17 +105,18 @@ By the end of this week, students should be able to:
 5. Understand and apply regularization techniques like dropout and L1/L2 regularization to prevent overfitting.
 6. Train a basic neural network using Keras and evaluate its performance.
 
-## Key Vocabulary
+### Key Vocabulary
 - **Gradient Descent**: An optimization algorithm that iteratively adjusts model parameters to minimize the loss function.
 - **Stochastic Gradient Descent (SGD)**: A variation of gradient descent that updates parameters using a single or small batch of data points.
 - **Learning Rate**: A hyperparameter that controls the size of steps taken during gradient descent.
 - **Train/Test Split**: A method of dividing data into separate training and testing sets to evaluate model performance.
+- **Loss Function**: A function with the property that the smaller its output, the the better performing the model is.
 - **Learning Curve**: A graph showing the change in a model's performance metric over time during training.
 - **Hyperparameter**: Configurable parameters that are set before training begins, such as the number of layers or the learning rate.
 - **Dropout**: A regularization technique that randomly ignores a subset of neurons during training to prevent overfitting.
 - **L1/L2 Regularization**: Techniques that penalize large weights in the model to promote simpler and more generalizable models.
 
-## Indicators of Mastery
+### Indicators of Mastery
 - Describe the training process for neural networks and its importance.
 - Implement gradient descent and stochastic gradient descent for optimization.
 - Evaluate model performance using train/test splits and learning curves.
@@ -137,12 +125,12 @@ By the end of this week, students should be able to:
 - Train and evaluate a neural network using Keras.
 
 
-# Weeks 5 & 6: Convolutional Neural Networks (CNNs)
+## Weeks 5 & 6: Convolutional Neural Networks (CNNs)
 
-## Topic Description
+### Topic Description
 This week introduces convolutional neural networks (CNNs), a specialized architecture designed for processing grid-structured data, such as images. Students will learn the principles of convolution, the role of convolutional layers, and how CNNs outperform traditional feed-forward neural networks for image-related tasks. The week also includes weight visualization techniques to interpret what CNNs learn and an introduction to object detection using bounding rectangles.
 
-## Relevance and Applications
+### Relevance and Applications
 CNNs are fundamental to many modern machine learning applications:
 - **Image classification**: Identifying objects in images.
 - **Object detection**: Locating objects within an image using bounding rectangles.
@@ -151,7 +139,7 @@ CNNs are fundamental to many modern machine learning applications:
 
 Weight visualization provides insights into how CNNs process images, while object detection is crucial for tasks like video analysis and real-world AI applications.
 
-## Module Outcomes
+### Module Outcomes
 By the end of this week, students should be able to:
 1. Understand convolution and its application in CNNs.
 2. Explain the structure and role of convolutional and pooling layers.
@@ -160,7 +148,7 @@ By the end of this week, students should be able to:
 5. Implement a basic object detection task, including creating bounding rectangles for detected objects.
 6. Implement multi-input models (e.g. images with text or other features) using concatenation layers.
 
-## Key Vocabulary
+### Key Vocabulary
 - **Convolution**: A mathematical operation used in CNNs to extract features from input data by applying filters.
 - **Convolutional Layer**: A layer in a CNN that performs convolution operations to detect features like edges and textures.
 - **Pooling Layer**: A layer that reduces the spatial dimensions of feature maps to reduce computation and extract dominant features.
@@ -170,7 +158,7 @@ By the end of this week, students should be able to:
 - **Object Detection**: The task of identifying and localizing objects within an image.
 - **Concatenation Layer**: A neural network layer which combines tensors from into one larger tensor.
 
-## Indicators of Mastery
+### Indicators of Mastery
 - Explain the purpose and structure of convolutional and pooling layers.
 - Implement a CNN for image classification using Keras.
 - Visualize CNN weights to interpret what features the network has learned.
@@ -185,9 +173,9 @@ The midterm exam assesses knowledge and skills from the first four modules of th
 
 ---
 
-## Exam Sections
+### Exam Sections
 
-### **Section 1: Mathematical Background**
+#### **Section 1: Mathematical Background**
 - **Focus**: Assessing foundational mathematical skills necessary for deep learning.
 - **Question Types**:
   - Solve derivatives and compute gradients for given functions.
@@ -195,7 +183,7 @@ The midterm exam assesses knowledge and skills from the first four modules of th
 
 ---
 
-### **Section 2: Neural Networks**
+#### **Section 2: Neural Networks**
 - **Focus**: Testing knowledge of training techniques and model optimization.
 - **Question Types**:
   - Explain the training process and its challenges.
@@ -203,20 +191,19 @@ The midterm exam assesses knowledge and skills from the first four modules of th
 
 ---
 
-### **Section 3: Convolutional Neural Networks**
+#### **Section 3: Convolutional Neural Networks**
 - **Focus**: Assessing understanding of CNNs and their application to image-based tasks.
 - **Question Types**:
   - Explain the role of convolutional layers in feature extraction.
   - Implement a simple object detection task in Python.
 
----
 
-## Exam Format
+### Exam Format
 1. **Multiple-Choice Questions (20%)**: Test theoretical knowledge across all topics.
 2. **Short-Answer Questions (30%)**: Evaluate conceptual understanding and problem-solving skills.
 3. **Programming Tasks (50%)**: Hands-on tasks requiring Python implementation of neural networks and training techniques.
 
-# Weeks 8-10: Transformers
+# Unit 3
 
 ## Week 8: Background and Foundations
 
@@ -269,7 +256,8 @@ By the end of this week, students should be able to:
 - Demonstrate the use of positional encoding in a transformer model.
 - Apply batch normalization to stabilize and improve transformer training.
 
----
+
+# Unit 4
 
 ## Week 10: Applications and Implementation
 
@@ -295,12 +283,12 @@ By the end of this week, students should be able to:
 - Apply transformers to diverse tasks, demonstrating their versatility and power.
 
 
-# Week 11: Ethical Concerns in AI and Deep Learning
+## Week 11: Ethical Concerns in AI and Deep Learning
 
-## Topic Description
+### Topic Description
 This week addresses the ethical implications of deploying AI systems, focusing on the limitations of AI models, institutional bias, bias in training data, and AI alignment. Students will explore real-world case studies and discuss strategies for developing responsible AI systems that align with societal values and ethical principles.
 
-## Relevance and Applications
+### Relevance and Applications
 Understanding ethical concerns is critical for the responsible development and deployment of AI systems:
 - **AI Model Limitations**: Recognizing where and why AI fails helps prevent over-reliance and misuse.
 - **Institutional Bias and Data Bias**: Identifying and mitigating bias ensures fairness in AI decision-making processes, such as hiring or lending.
@@ -308,7 +296,7 @@ Understanding ethical concerns is critical for the responsible development and d
 
 By exploring these issues, students will gain the skills to analyze and address ethical challenges in their AI projects.
 
-## Module Outcomes
+### Module Outcomes
 By the end of this week, students should be able to:
 1. Identify limitations in AI models and understand their implications for decision-making.
 2. Analyze the sources and impact of institutional and data biases in AI systems.
@@ -316,7 +304,7 @@ By the end of this week, students should be able to:
 4. Propose strategies for improving fairness, transparency, and accountability in AI systems.
 5. Evaluate real-world AI systems through an ethical lens.
 
-## Key Vocabulary
+### Key Vocabulary
 - **AI Model Limitations**: Constraints in AI systems, such as generalization errors, lack of interpretability, and failure in edge cases.
 - **Institutional Bias**: Systemic bias arising from policies or practices embedded in organizations and reflected in AI outputs.
 - **Data Bias**: Bias in training datasets that leads to discriminatory or unfair AI predictions.
@@ -324,7 +312,7 @@ By the end of this week, students should be able to:
 - **Transparency**: The degree to which AI models and their decision-making processes can be understood by humans.
 - **Fairness**: The quality of making decisions that are free of discrimination or favoritism.
 
-## Indicators of Mastery
+### Indicators of Mastery
 - Identify and explain limitations of AI models in real-world scenarios.
 - Analyze the presence and impact of bias in AI datasets and institutional practices.
 - Evaluate AI systems for alignment with human values and societal goals.
@@ -404,3 +392,6 @@ The final exam evaluates students' understanding of key topics covered throughou
 
 This final exam ensures a well-rounded assessment of the students' technical skills, conceptual understanding, and ethical awareness.
 
+# Notable Topics not Covered
+
+T
