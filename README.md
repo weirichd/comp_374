@@ -5,6 +5,23 @@ Below is a first attempt at a full course on deep learning.
 This is still a draft and is subject to revision.
 
 
+## Course Overview
+
+- **Unit 1**: Introduction
+    - **Week 1**: Mathematical Background
+- **Unit 2**: Neural Networks
+    - **Week 2**: Introduction to Neural Networks
+    - **Weeks 3 & 4**: Training Neural Networks
+    - **Weeks 5 & 6**: Convolutional Neural Networks (CNNs)
+- **Week 7**: Midterm
+- **Unit 3**: Transformers
+    - **Week 8**: Background and Foundations
+    - **Week 9**: Attention and Transformer Architecture
+    - **Week 10**: Applications and Implementation
+- **Unit 4**: AI Ethics
+    - **Week 11**: Ethical Concerns in AI and Deep Learning
+- **Week 12**: Final Exam
+
 # Unit 1
 
 ## Week 1: Mathematical Background
@@ -323,7 +340,7 @@ By the end of this week, students should be able to:
 
 This module provides students with the tools to critically evaluate and address the ethical challenges posed by AI, preparing them for responsible AI development in their future careers.
 
-# Final Exam
+# Week 12: Final Exam
 
 ## Exam Overview
 The final exam evaluates students' understanding of key topics covered throughout the semester, with a primary focus on transformers. It includes a review of foundational concepts from the first half of the course, advanced transformer architectures and applications, and ethical considerations in AI development. The exam comprises theoretical questions, programming tasks, and case-based analysis to ensure a comprehensive assessment of both knowledge and practical skills.
