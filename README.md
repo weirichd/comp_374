@@ -9,9 +9,10 @@ This is still a draft and is subject to revision.
 
 - **Unit 1**: Introduction
     - **Week 1**: Mathematical Background
-- **Unit 2**: Neural Networks
+- **Unit 2**: Neural Networks Basics
     - **Week 2**: Introduction to Neural Networks
-    - **Weeks 3 & 4**: Training Neural Networks
+    - **Week 3**: Training Neural Networks
+    - **Week 4**: Advanced Techniques for Training Neural Networks
     - **Weeks 5 & 6**: Convolutional Neural Networks (CNNs)
 - **Week 7**: Midterm
 - **Unit 3**: Transformers
@@ -107,50 +108,70 @@ By the end of this week, students should be able to:
 
 [But what is a neural network?](https://youtu.be/aircAruvnKk?si=6PUfl3KnBts4Pg5Z)
 
-## Weeks 3 & 4: Training Neural Networks
+## Week 3: Introduction to Training Neural Networks
 
 ### Topic Description
-This module teaches the process of training neural networks, focusing on the key techniques and concepts required to optimize their performance. Students will explore gradient descent, stochastic gradient descent, and other essential training methods, as well as techniques for evaluating and improving model performance. The session concludes with hands-on practice training a neural network using Keras.
+This week introduces the process of training neural networks, focusing on foundational optimization techniques such as gradient descent and stochastic gradient descent. Students will also learn about train/test splits and learning curves to evaluate model performance. Hands-on practice with training basic neural networks in Keras will reinforce these concepts.
 
 ### Relevance and Applications
 Training is a critical step in the development of neural networks:
-- Optimization techniques like gradient descent enable neural networks to learn from data by minimizing error.
-- Evaluation strategies such as the train/test split and learning curves are essential for understanding model performance and avoiding overfitting.
-- Hyperparameter tuning and regularization methods like dropout and L1/L2 regularization ensure that networks generalize well to new data.
+- **Optimization techniques** like gradient descent are essential for enabling neural networks to learn from data.
+- **Evaluation strategies** such as train/test splits and learning curves help understand model performance and ensure reliable predictions.
 
-Mastering these concepts is foundational for building effective machine learning models in any application.
+Mastering these foundational concepts prepares students to fine-tune and improve models effectively.
 
 ### Module Outcomes
 By the end of this week, students should be able to:
 1. Explain the concept of training in the context of neural networks.
 2. Understand and apply gradient descent and stochastic gradient descent to optimize neural networks.
 3. Use train/test splits and interpret learning curves to evaluate model performance.
-4. Identify and adjust key hyperparameters, including the number of layers, size of layers, and learning rate.
-5. Understand and apply regularization techniques like dropout and L1/L2 regularization to prevent overfitting.
-6. Train a basic neural network using Keras and evaluate its performance.
 
 ### Key Vocabulary
 - **Gradient Descent**: An optimization algorithm that iteratively adjusts model parameters to minimize the loss function.
 - **Stochastic Gradient Descent (SGD)**: A variation of gradient descent that updates parameters using a single or small batch of data points.
-- **Learning Rate**: A hyperparameter that controls the size of steps taken during gradient descent.
 - **Train/Test Split**: A method of dividing data into separate training and testing sets to evaluate model performance.
-- **Loss Function**: A function with the property that the smaller its output, the the better performing the model is.
 - **Learning Curve**: A graph showing the change in a model's performance metric over time during training.
-- **Hyperparameter**: Configurable parameters that are set before training begins, such as the number of layers or the learning rate.
-- **Dropout**: A regularization technique that randomly ignores a subset of neurons during training to prevent overfitting.
-- **L1/L2 Regularization**: Techniques that penalize large weights in the model to promote simpler and more generalizable models.
+- **Loss Function**: A function with the property that the smaller its output, the better performing the model is.
 
 ### Indicators of Mastery
 - Describe the training process for neural networks and its importance.
 - Implement gradient descent and stochastic gradient descent for optimization.
 - Evaluate model performance using train/test splits and learning curves.
-- Adjust hyperparameters, such as the number and size of layers, to improve model performance.
-- Apply dropout and L1/L2 regularization to reduce overfitting.
-- Train and evaluate a neural network using Keras.
 
 ### Supplemental Material
 
 [Gradient descent, how neural networks learn](https://youtu.be/IHZwWFHWa-w?si=wLhXyjxnJxcic3Ao)
+
+## Week 4: Advanced Techniques for Training Neural Networks
+
+### Topic Description
+Building on the basics of training, this week introduces advanced techniques to optimize neural network performance. Topics include hyperparameter tuning, dropout, and L1/L2 regularization to prevent overfitting. Students will also learn how to configure and fine-tune neural networks using Keras.
+
+### Relevance and Applications
+Advanced training techniques ensure neural networks generalize well to new data:
+- **Hyperparameter tuning** improves model performance and efficiency.
+- **Regularization techniques** like dropout and L1/L2 help mitigate overfitting, ensuring models perform well on unseen data.
+
+These advanced methods are vital for creating robust and reliable machine learning models.
+
+### Module Outcomes
+By the end of this week, students should be able to:
+1. Identify and adjust key hyperparameters, including the number of layers, size of layers, and learning rate.
+2. Understand and apply regularization techniques like dropout and L1/L2 regularization to prevent overfitting.
+3. Train and evaluate advanced neural networks using Keras.
+
+### Key Vocabulary
+- **Hyperparameter**: Configurable parameters that are set before training begins, such as the number of layers or the learning rate.
+- **Learning Rate**: A hyperparameter that controls the size of steps taken during gradient descent.
+- **Dropout**: A regularization technique that randomly ignores a subset of neurons during training to prevent overfitting.
+- **L1 Regularization**: A technique that adds a penalty proportional to the absolute value of the weights to the loss function, encouraging sparsity.
+- **L2 Regularization**: A technique that adds a penalty proportional to the square of the weights to the loss function, encouraging smaller weights.
+
+### Indicators of Mastery
+- Adjust hyperparameters, such as the number and size of layers, to improve model performance.
+- Apply dropout and L1/L2 regularization to reduce overfitting.
+- Train and evaluate advanced neural networks using Keras.
+
 
 ## Weeks 5 & 6: Convolutional Neural Networks (CNNs)
 
@@ -202,8 +223,6 @@ By the end of this week, students should be able to:
 ## Exam Overview
 The midterm exam assesses knowledge and skills from the first four modules of the course, covering foundational mathematical concepts, the basics of neural networks, training methodologies, and convolutional neural networks (CNNs). The exam is designed to evaluate theoretical understanding and practical application through a combination of multiple-choice, short-answer, and Python programming tasks.
 
----
-
 ### Exam Sections
 
 #### **Section 1: Mathematical Background**
@@ -212,15 +231,11 @@ The midterm exam assesses knowledge and skills from the first four modules of th
   - Solve derivatives and compute gradients for given functions.
   - Perform matrix operations and explain their relevance in neural networks.
 
----
-
 #### **Section 2: Neural Networks**
 - **Focus**: Testing knowledge of training techniques and model optimization.
 - **Question Types**:
   - Explain the training process and its challenges.
   - Implement a neural network with dropout and evaluate its performance.
-
----
 
 #### **Section 3: Convolutional Neural Networks**
 - **Focus**: Assessing understanding of CNNs and their application to image-based tasks.
@@ -259,8 +274,6 @@ By the end of this week, students should be able to:
 - Demonstrate the calculation and significance of cosine similarity in vector spaces.
 - Build an embedding layer in Keras for categorical data.
 - Articulate the motivation and basic mechanics of attention.
-
----
 
 ## Week 9: Attention and Transformer Architecture
 
@@ -350,16 +363,12 @@ By the end of this week, students should be able to:
 - Propose actionable solutions to improve fairness, transparency, and accountability in AI projects.
 - Critically assess the ethical implications of deploying AI systems in various domains.
 
----
-
 This module provides students with the tools to critically evaluate and address the ethical challenges posed by AI, preparing them for responsible AI development in their future careers.
 
 # Week 12: Final Exam
 
 ## Exam Overview
 The final exam evaluates students' understanding of key topics covered throughout the semester, with a primary focus on transformers. It includes a review of foundational concepts from the first half of the course, advanced transformer architectures and applications, and ethical considerations in AI development. The exam comprises theoretical questions, programming tasks, and case-based analysis to ensure a comprehensive assessment of both knowledge and practical skills.
-
----
 
 ## Exam Sections
 
@@ -373,8 +382,6 @@ The final exam evaluates students' understanding of key topics covered throughou
   - Explain the role of gradients in optimization.
   - Implement a CNN for a basic image classification task.
   - Use an embedding layer to preprocess categorical data.
-
----
 
 ### **Section 2: Transformers (65%)**
 - **Focus**: Comprehensive evaluation of transformer architectures and applications.
@@ -391,8 +398,6 @@ The final exam evaluates students' understanding of key topics covered throughou
   - Fine-tune a pre-trained transformer (e.g., BERT) for sentiment analysis.
   - Discuss the advantages of transformers over RNNs for sequence data.
 
----
-
 ### **Section 3: Ethical Considerations (20%)**
 - **Focus**: Applying ethical principles to AI and deep learning projects.
 - **Key Topics**:
@@ -404,15 +409,11 @@ The final exam evaluates students' understanding of key topics covered throughou
   - Identify ethical challenges in deploying transformers for sensitive tasks (e.g., hiring, medical diagnosis).
   - Propose strategies for improving fairness and transparency in an AI application.
 
----
-
 ## Exam Format
 1. **Multiple-Choice Questions (20%)**: Test theoretical understanding across all topics.
 2. **Short-Answer Questions (30%)**: Assess the ability to explain concepts and solve theoretical problems.
 3. **Programming Tasks (40%)**: Evaluate hands-on skills, focusing on transformers and key first-half concepts.
 4. **Case Study Analysis (10%)**: Analyze a real-world scenario involving ethical considerations in AI.
-
----
 
 ## Exam Preparation Tips
 - Review key concepts from Weeks 1–4, including gradient descent, CNNs, and embedding layers.
@@ -423,6 +424,3 @@ The final exam evaluates students' understanding of key topics covered throughou
 
 This final exam ensures a well-rounded assessment of the students' technical skills, conceptual understanding, and ethical awareness.
 
-# Notable Topics not Covered
-
-T
