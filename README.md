@@ -22,7 +22,7 @@ This is still a draft and is subject to revision.
     - **Week 11**: Ethical Concerns in AI and Deep Learning
 - **Week 12**: Final Exam
 
-# Unit 1
+# Unit 1: Introduction
 
 ## Week 1: Mathematical Background
 
@@ -60,6 +60,9 @@ By the end of this week, students should be able to:
 - Implement and explain linear regression and logistic regression models.
 - Apply derivatives and matrix operations to optimize simple machine learning models.
 - Analyze the performance of linear and logistic regression in basic classification and regression tasks.
+
+
+# Unit 2: Neural Networks
 
 ## Week 2: Introduction to Neural Networks
 
@@ -99,6 +102,10 @@ By the end of this week, students should be able to:
 - Explain the role of activation functions and their importance in introducing nonlinearity.
 - Evaluate the performance of a neural network and identify scenarios where neural networks are an appropriate solution.
 
+
+### Supplemental Material
+
+[But what is a neural network?](https://youtu.be/aircAruvnKk?si=6PUfl3KnBts4Pg5Z)
 
 ## Weeks 3 & 4: Training Neural Networks
 
@@ -141,6 +148,9 @@ By the end of this week, students should be able to:
 - Apply dropout and L1/L2 regularization to reduce overfitting.
 - Train and evaluate a neural network using Keras.
 
+### Supplemental Material
+
+[Gradient descent, how neural networks learn](https://youtu.be/IHZwWFHWa-w?si=wLhXyjxnJxcic3Ao)
 
 ## Weeks 5 & 6: Convolutional Neural Networks (CNNs)
 
@@ -183,6 +193,10 @@ By the end of this week, students should be able to:
 - Implement object detection with bounding rectangles for identifying objects in images.
 
 
+### Supplemental Material
+
+[But what is colvolution?](https://youtu.be/KuXjwB4LzSA?si=7rm6seM0qYomHXhD)
+
 # Week 7: Midterm
 
 ## Exam Overview
@@ -220,7 +234,7 @@ The midterm exam assesses knowledge and skills from the first four modules of th
 2. **Short-Answer Questions (30%)**: Evaluate conceptual understanding and problem-solving skills.
 3. **Programming Tasks (50%)**: Hands-on tasks requiring Python implementation of neural networks and training techniques.
 
-# Unit 3
+# Unit 3: Transformers
 
 ## Week 8: Background and Foundations
 
@@ -274,7 +288,6 @@ By the end of this week, students should be able to:
 - Apply batch normalization to stabilize and improve transformer training.
 
 
-# Unit 4
 
 ## Week 10: Applications and Implementation
 
@@ -299,6 +312,7 @@ By the end of this week, students should be able to:
 - Evaluate the performance of transformers on real-world datasets.
 - Apply transformers to diverse tasks, demonstrating their versatility and power.
 
+# Unit 4: AI Ethics
 
 ## Week 11: Ethical Concerns in AI and Deep Learning
 
