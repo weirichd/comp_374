@@ -13,7 +13,8 @@ This is still a draft and is subject to revision.
     - **Week 2**: Introduction to Neural Networks
     - **Week 3**: Training Neural Networks
     - **Week 4**: Advanced Techniques for Training Neural Networks
-    - **Weeks 5 & 6**: Convolutional Neural Networks (CNNs)
+    - **Week 5**: Fundamentals of Convolutional Neural Networks (CNNs)
+    - **Week 6**: Advanced CNN Techniques
 - **Week 7**: Midterm
 - **Unit 3**: Transformers
     - **Week 8**: Background and Foundations
