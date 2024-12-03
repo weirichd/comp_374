@@ -173,50 +173,69 @@ By the end of this week, students should be able to:
 - Train and evaluate advanced neural networks using Keras.
 
 
-## Weeks 5 & 6: Convolutional Neural Networks (CNNs)
+# Week 5: Fundamentals of Convolutional Neural Networks (CNNs)
 
-### Topic Description
-This week introduces convolutional neural networks (CNNs), a specialized architecture designed for processing grid-structured data, such as images. Students will learn the principles of convolution, the role of convolutional layers, and how CNNs outperform traditional feed-forward neural networks for image-related tasks. The week also includes weight visualization techniques to interpret what CNNs learn and an introduction to object detection using bounding rectangles.
+## Topic Description
+This week introduces the foundational concepts of convolutional neural networks (CNNs). Students will learn the principles of convolution and the role of convolutional and pooling layers. The focus is on building and training CNNs for basic image classification tasks using Keras.
 
-### Relevance and Applications
-CNNs are fundamental to many modern machine learning applications:
-- **Image classification**: Identifying objects in images.
-- **Object detection**: Locating objects within an image using bounding rectangles.
-- **Medical imaging**: Analyzing radiology scans for abnormalities.
-- **Autonomous vehicles**: Detecting and classifying obstacles in real-time.
+## Relevance and Applications
+CNNs are a key architecture for handling image data, with applications such as:
+- **Image classification**: Assigning labels to images based on their content.
+- **Medical imaging**: Identifying patterns and abnormalities in radiology scans.
 
-Weight visualization provides insights into how CNNs process images, while object detection is crucial for tasks like video analysis and real-world AI applications.
+Mastering the basics of CNNs prepares students to tackle more advanced tasks like object detection and multi-input models.
 
-### Module Outcomes
+## Module Outcomes
 By the end of this week, students should be able to:
-1. Understand convolution and its application in CNNs.
-2. Explain the structure and role of convolutional and pooling layers.
-3. Build and train a CNN for image classification using Keras.
-4. Visualize CNN weights to interpret learned features.
-5. Implement a basic object detection task, including creating bounding rectangles for detected objects.
-6. Implement multi-input models (e.g. images with text or other features) using concatenation layers.
+1. Understand convolution and its application in feature extraction.
+2. Explain the structure and purpose of convolutional and pooling layers.
+3. Build and train a basic CNN for image classification using Keras.
 
-### Key Vocabulary
+## Key Vocabulary
 - **Convolution**: A mathematical operation used in CNNs to extract features from input data by applying filters.
 - **Convolutional Layer**: A layer in a CNN that performs convolution operations to detect features like edges and textures.
 - **Pooling Layer**: A layer that reduces the spatial dimensions of feature maps to reduce computation and extract dominant features.
 - **ReLU (Rectified Linear Unit)**: An activation function that introduces nonlinearity by outputting the positive part of input values.
-- **Weight Visualization**: A technique for inspecting the filters learned by CNNs to understand how they process input data.
-- **Bounding Rectangle**: A box drawn around an object in an image to indicate its detected location.
-- **Object Detection**: The task of identifying and localizing objects within an image.
-- **Concatenation Layer**: A neural network layer which combines tensors from into one larger tensor.
 
-### Indicators of Mastery
+## Indicators of Mastery
 - Explain the purpose and structure of convolutional and pooling layers.
-- Implement a CNN for image classification using Keras.
-- Visualize CNN weights to interpret what features the network has learned.
-- Compare CNNs with feed-forward networks for image-based tasks.
-- Implement object detection with bounding rectangles for identifying objects in images.
-
+- Implement a CNN for basic image classification using Keras.
+- Compare CNNs with feed-forward neural networks for image-based tasks.
 
 ### Supplemental Material
 
 [But what is colvolution?](https://youtu.be/KuXjwB4LzSA?si=7rm6seM0qYomHXhD)
+
+# Week 6: Advanced CNN Techniques
+
+## Topic Description
+Building on the basics, this week covers advanced techniques for CNNs, including weight visualization for understanding learned features and object detection using bounding rectangles. Students will also learn to implement multi-input models, such as combining images with text or other features, using concatenation layers.
+
+## Relevance and Applications
+Advanced CNN techniques enable more complex real-world applications:
+- **Weight visualization** provides insights into how CNNs learn to detect features like edges and shapes.
+- **Object detection** is critical in fields such as video analysis and autonomous vehicles.
+- **Multi-input models** are used in applications requiring combined data sources, such as combining images with metadata.
+
+These techniques expand the versatility and interpretability of CNN-based models.
+
+## Module Outcomes
+By the end of this week, students should be able to:
+1. Visualize CNN weights to interpret learned features.
+2. Implement object detection tasks with bounding rectangles.
+3. Build and train multi-input models using concatenation layers in Keras.
+
+## Key Vocabulary
+- **Weight Visualization**: A technique for inspecting the filters learned by CNNs to understand how they process input data.
+- **Bounding Rectangle**: A box drawn around an object in an image to indicate its detected location.
+- **Object Detection**: The task of identifying and localizing objects within an image.
+- **Concatenation Layer**: A neural network layer which combines tensors into one larger tensor for multi-input models.
+
+## Indicators of Mastery
+- Visualize and interpret CNN weights to understand feature learning.
+- Implement object detection with bounding rectangles for identifying objects in images.
+- Build and train multi-input models using concatenation layers in Keras.
+
 
 # Week 7: Midterm
 
