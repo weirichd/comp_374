@@ -35,14 +35,40 @@ The point breakdown is
 
 **TOTAL**: 1000 points.
 
-# Links to course materkals
+# Links to Course Materials
 
-**TODO: Fill out links here.**
+
+* Module 1 Lecture: https://colab.research.google.com/drive/1P4PeoNnpbKffAMEELvzxllDPYoBLIRul
+* Module 1 Homework: https://colab.research.google.com/drive/1XipW_m8YTwbg5CkB3tmNHLgDuI4T_gG7
+* Module 2 Lecture: https://colab.research.google.com/drive/1zySxeu4ykgltnk8oVkeEazoqJ6ET4pZo
+* Module 2 Homework: https://colab.research.google.com/drive/1_J53ma0yX5Ky92BV8VhA3xjs2R992AvA
+* Module 3 Lecture: https://colab.research.google.com/drive/1jB1_uX943FWZ47_rMoIyMUMHZ1MjUo4Z
+* Module 3 Homework: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
+* Module 4 Lecture: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
+* Module 4 Homework: https://colab.research.google.com/drive/1hyZavws_wH39popTib7jpEWV_gdNx87X
+* Module 5 Lecture: https://colab.research.google.com/drive/1j320zGPJMl1imDznSUceVFB7n41lzWU3
+* Module 5 Homework: https://colab.research.google.com/drive/1cRJEOI86OgghAkxoCLGe6YLxDHQCfrAf
+* Module 6 Lecture: https://colab.research.google.com/drive/1u2FkH2Vss8K93XDEyIu-9YwX8JYa8jkS
+* Module 6 Homework: https://colab.research.google.com/drive/1QhV6Z5D1mppu22vp9-OPP-pwG97Hai88
+* Module 7 Lecture: https://colab.research.google.com/drive/1-b0Xy1b8jd0x8T8LQmfoY1Ha1Y3L9HkC
+* Module 7 Homework: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
+* Module 8 Lecture: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
+* Module 8 Homework: https://colab.research.google.com/drive/1BritChnHiQuHtopqHS_6HRV2l2MoTNPg
+* Module 9 Lecture: https://colab.research.google.com/drive/1oXQ05dB3z0qsxAvKbeIky3sL5C1vKhcO
+* Module 9 Homework: https://colab.research.google.com/drive/1cvRcUWon3Nh1ObE80sR6b1HzhxQD19gD
+* Module 10 Lecture: https://colab.research.google.com/drive/11n1RRV1qnSgzfuagqFFgZ5V7ZV-mVT6h
+* Module 10 Homework: https://colab.research.google.com/drive/1WePxxyTM8P-zgREJ90UklestfbYmjvlW
+
+---
+
+* Final Exam: https://colab.research.google.com/drive/1GrX9VQZ3sktt7G32XFhYxUtW7m9DWisw
+* Midterm Exam: https://colab.research.google.com/drive/1XipW_m8YTwbg5CkB3tmNHLgDuI4T_gG7
+
 
 
 # Unit 1: Introduction
 
-## Week 1: Mathematical Background
+## Module 1: Mathematical Background
 
 ### Topic Description
 An introduction to the mathematical foundations essential for understanding deep learning. This week focuses on derivatives, vector mathematics, matrix multiplication, and basic examples of machine learning models (linear regression and logistic regression). These concepts provide the groundwork for understanding optimization and classification.
@@ -82,7 +108,7 @@ By the end of this week, students should be able to:
 
 # Unit 2: Neural Networks
 
-## Week 2: Introduction to Neural Networks
+## Module 2: Introduction to Neural Networks
 
 ### Topic Description
 This week introduces the concept of neural networks as a general-purpose solution for complex function approximation. Students will explore the types of problems neural networks are designed to solve, the principles behind their design, and the distinction between shallow and deep networks. The session also includes a first hands-on experience with TensorFlow and Keras.
@@ -125,7 +151,7 @@ By the end of this week, students should be able to:
 
 [But what is a neural network?](https://youtu.be/aircAruvnKk?si=6PUfl3KnBts4Pg5Z)
 
-## Week 3: Introduction to Training Neural Networks
+## Module 3: Introduction to Training Neural Networks
 
 ### Topic Description
 This week introduces the process of training neural networks, focusing on foundational optimization techniques such as gradient descent and stochastic gradient descent. Students will also learn about train/test splits and learning curves to evaluate model performance. Hands-on practice with training basic neural networks in Keras will reinforce these concepts.
@@ -159,7 +185,7 @@ By the end of this week, students should be able to:
 
 [Gradient descent, how neural networks learn](https://youtu.be/IHZwWFHWa-w?si=wLhXyjxnJxcic3Ao)
 
-## Week 4: Advanced Techniques for Training Neural Networks
+## Module 4: Advanced Techniques for Training Neural Networks
 
 ### Topic Description
 Building on the basics of training, this week introduces advanced techniques to optimize neural network performance. 
@@ -192,7 +218,7 @@ By the end of this week, students should be able to:
 - Train and evaluate advanced neural networks using Keras.
 
 
-# Week 5: Fundamentals of Convolutional Neural Networks (CNNs)
+# Module 5: Fundamentals of Convolutional Neural Networks (CNNs)
 
 ## Topic Description
 This week introduces the foundational concepts of convolutional neural networks (CNNs). Students will learn the principles of convolution and the role of convolutional and pooling layers. The focus is on building and training CNNs for basic image classification tasks using Keras.
@@ -225,7 +251,7 @@ By the end of this week, students should be able to:
 
 [But what is colvolution?](https://youtu.be/KuXjwB4LzSA?si=7rm6seM0qYomHXhD)
 
-# Week 6: Advanced CNN Techniques
+# Module 6: Advanced CNN Techniques
 
 ## Topic Description
 Building on the basics, this week covers advanced techniques for CNNs, including weight visualization for understanding learned features and object detection using bounding rectangles. Students will also learn to implement multi-input models, such as combining images with text or other features, using concatenation layers.
@@ -256,7 +282,7 @@ By the end of this week, students should be able to:
 - Build and train multi-input models using concatenation layers in Keras.
 
 
-# Week 7: Midterm
+# Midterm
 
 ## Exam Overview
 The midterm exam assesses knowledge and skills from the first four modules of the course, covering foundational mathematical concepts, the basics of neural networks, training methodologies, and convolutional neural networks (CNNs). The exam is designed to evaluate theoretical understanding and practical application through a combination of multiple-choice, short-answer, and Python programming tasks.
@@ -289,7 +315,7 @@ The midterm exam assesses knowledge and skills from the first four modules of th
 
 # Unit 3: Transformers
 
-## Week 8: Background and Foundations
+## Module 7: Background and Foundations
 
 ### Topic Description
 This week provides the foundational knowledge necessary for understanding transformers. Students will explore sequential data processing challenges with RNNs, the limitations these architectures face, and the revolutionary introduction of attention mechanisms. The session includes cosine similarity for measuring vector relationships and embedding layers for representing categorical data.
@@ -313,7 +339,7 @@ By the end of this week, students should be able to:
 - Build an embedding layer in Keras for categorical data.
 - Articulate the motivation and basic mechanics of attention.
 
-## Week 9: Attention and Transformer Architecture
+## Module 8: Attention and Transformer Architecture
 
 ### Topic Description
 This week dives deeper into the attention mechanism and introduces the core architecture of transformers. Students will learn about self-attention, multi-head attention, and positional encoding. Batch normalization is introduced as a key technique for stabilizing training.
@@ -340,7 +366,7 @@ By the end of this week, students should be able to:
 
 
 
-## Week 10: Applications and Implementation
+## Module 9: Applications and Implementation
 
 ### Topic Description
 In the final week, students will implement transformers in Keras and explore their applications in natural language processing (e.g., text classification, machine translation) and computer vision (e.g., vision transformers). The week includes fine-tuning pre-trained transformers for real-world tasks.
@@ -365,7 +391,7 @@ By the end of this week, students should be able to:
 
 # Unit 4: AI Ethics
 
-## Week 11: Ethical Concerns in AI and Deep Learning
+## Module 10: Ethical Concerns in AI and Deep Learning
 
 ### Topic Description
 This week addresses the ethical implications of deploying AI systems, focusing on the limitations of AI models, institutional bias, bias in training data, and AI alignment. Students will explore real-world case studies and discuss strategies for developing responsible AI systems that align with societal values and ethical principles.
@@ -403,7 +429,7 @@ By the end of this week, students should be able to:
 
 This module provides students with the tools to critically evaluate and address the ethical challenges posed by AI, preparing them for responsible AI development in their future careers.
 
-# Week 12: Final Exam
+# Final Exam
 
 ## Exam Overview
 The final exam evaluates students' understanding of key topics covered throughout the semester, with a primary focus on transformers. It includes a review of foundational concepts from the first half of the course, advanced transformer architectures and applications, and ethical considerations in AI development. The exam comprises theoretical questions, programming tasks, and case-based analysis to ensure a comprehensive assessment of both knowledge and practical skills.
