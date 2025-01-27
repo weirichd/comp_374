@@ -24,6 +24,22 @@ This is still a draft and is subject to revision.
     - **Week 11**: Ethical Concerns in AI and Deep Learning
 - **Week 12**: Final Exam
 
+# Course Grading Breakdown
+
+The course consists of ten homework assignments, a midterm, and a final.
+The point breakdown is
+
+* Homework ($\times$ 10), 70 points each, 700 points total
+* Midterm, 150 points
+* Final, 150 points
+
+**TOTAL**: 1000 points.
+
+# Links to course materkals
+
+**TODO: Fill out links here.**
+
+
 # Unit 1: Introduction
 
 ## Week 1: Mathematical Background
@@ -146,7 +162,9 @@ By the end of this week, students should be able to:
 ## Week 4: Advanced Techniques for Training Neural Networks
 
 ### Topic Description
-Building on the basics of training, this week introduces advanced techniques to optimize neural network performance. Topics include hyperparameter tuning, dropout, and L1/L2 regularization to prevent overfitting. Students will also learn how to configure and fine-tune neural networks using Keras.
+Building on the basics of training, this week introduces advanced techniques to optimize neural network performance. 
+Topics include hyperparameter tuning, dropout, optimizers, and L1/L2 regularization to prevent overfitting.
+ Students will also learn how to configure and fine-tune neural networks using Keras.
 
 ### Relevance and Applications
 Advanced training techniques ensure neural networks generalize well to new data:
