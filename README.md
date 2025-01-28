@@ -39,7 +39,7 @@ The point breakdown is
 
 
 * Module 1 Lecture: https://colab.research.google.com/drive/1P4PeoNnpbKffAMEELvzxllDPYoBLIRul
-* Module 1 Homework: https://colab.research.google.com/drive/1XipW_m8YTwbg5CkB3tmNHLgDuI4T_gG7
+* Module 1 Homework: https://colab.research.google.com/drive/1v9kLtGyfdQKATi90DZMaIu0_c7urb39x
 * Module 2 Lecture: https://colab.research.google.com/drive/1zySxeu4ykgltnk8oVkeEazoqJ6ET4pZo
 * Module 2 Homework: https://colab.research.google.com/drive/1_J53ma0yX5Ky92BV8VhA3xjs2R992AvA
 * Module 3 Lecture: https://colab.research.google.com/drive/1jB1_uX943FWZ47_rMoIyMUMHZ1MjUo4Z
