@@ -7,22 +7,22 @@ This is still a draft and is subject to revision.
 
 ## Course Overview
 
-- **Unit 1**: Introduction
-    - **Week 1**: Mathematical Background
-- **Unit 2**: Neural Networks Basics
-    - **Week 2**: Introduction to Neural Networks
-    - **Week 3**: Training Neural Networks
-    - **Week 4**: Advanced Techniques for Training Neural Networks
-    - **Week 5**: Fundamentals of Convolutional Neural Networks (CNNs)
-    - **Week 6**: Advanced CNN Techniques
-- **Week 7**: Midterm
-- **Unit 3**: Transformers
-    - **Week 8**: Background and Foundations
-    - **Week 9**: Attention and Transformer Architecture
-    - **Week 10**: Applications and Implementation
-- **Unit 4**: AI Ethics
-    - **Week 11**: Ethical Concerns in AI and Deep Learning
-- **Week 12**: Final Exam
+- **Module 1**: Introduction
+    - **Unit 1**: Mathematical Background
+- **Module 2**: Neural Networks Basics
+    - **Unit 2**: Introduction to Neural Networks
+    - **Unit 3**: Training Neural Networks
+    - **Unit 4**: Advanced Techniques for Training Neural Networks
+    - **Unit 5**: Fundamentals of Convolutional Neural Networks (CNNs)
+    - **Unit 6**: Advanced CNN Techniques
+- **Module 3**: Midterm
+- **Module 4**: Transformers
+    - **Unit 7**: Background and Foundations
+    - **Unit 8**: Attention and Transformer Architecture
+    - **Unit 9**: Applications and Implementation
+- **Module 5**: AI Ethics
+    - **Unit 10**: Ethical Concerns in AI and Deep Learning
+- **Module 6**: Final Exam
 
 # Course Grading Breakdown
 
@@ -38,26 +38,26 @@ The point breakdown is
 # Links to Course Materials
 
 
-* Module 1 Lecture: https://colab.research.google.com/drive/1P4PeoNnpbKffAMEELvzxllDPYoBLIRul
-* Module 1 Homework: https://colab.research.google.com/drive/1v9kLtGyfdQKATi90DZMaIu0_c7urb39x
-* Module 2 Lecture: https://colab.research.google.com/drive/1zySxeu4ykgltnk8oVkeEazoqJ6ET4pZo
-* Module 2 Homework: https://colab.research.google.com/drive/1_J53ma0yX5Ky92BV8VhA3xjs2R992AvA
-* Module 3 Lecture: https://colab.research.google.com/drive/1jB1_uX943FWZ47_rMoIyMUMHZ1MjUo4Z
-* Module 3 Homework: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
-* Module 4 Lecture: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
-* Module 4 Homework: https://colab.research.google.com/drive/1hyZavws_wH39popTib7jpEWV_gdNx87X
-* Module 5 Lecture: https://colab.research.google.com/drive/1j320zGPJMl1imDznSUceVFB7n41lzWU3
-* Module 5 Homework: https://colab.research.google.com/drive/1cRJEOI86OgghAkxoCLGe6YLxDHQCfrAf
-* Module 6 Lecture: https://colab.research.google.com/drive/1u2FkH2Vss8K93XDEyIu-9YwX8JYa8jkS
-* Module 6 Homework: https://colab.research.google.com/drive/1QhV6Z5D1mppu22vp9-OPP-pwG97Hai88
-* Module 7 Lecture: https://colab.research.google.com/drive/1-b0Xy1b8jd0x8T8LQmfoY1Ha1Y3L9HkC
-* Module 7 Homework: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
-* Module 8 Lecture: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
-* Module 8 Homework: https://colab.research.google.com/drive/1BritChnHiQuHtopqHS_6HRV2l2MoTNPg
-* Module 9 Lecture: https://colab.research.google.com/drive/1oXQ05dB3z0qsxAvKbeIky3sL5C1vKhcO
-* Module 9 Homework: https://colab.research.google.com/drive/1cvRcUWon3Nh1ObE80sR6b1HzhxQD19gD
-* Module 10 Lecture: https://colab.research.google.com/drive/11n1RRV1qnSgzfuagqFFgZ5V7ZV-mVT6h
-* Module 10 Homework: https://colab.research.google.com/drive/1WePxxyTM8P-zgREJ90UklestfbYmjvlW
+* Unit 1 Lecture: https://colab.research.google.com/drive/1P4PeoNnpbKffAMEELvzxllDPYoBLIRul
+* Unit 1 Homework: https://colab.research.google.com/drive/1v9kLtGyfdQKATi90DZMaIu0_c7urb39x
+* Unit 2 Lecture: https://colab.research.google.com/drive/1zySxeu4ykgltnk8oVkeEazoqJ6ET4pZo
+* Unit 2 Homework: https://colab.research.google.com/drive/1_J53ma0yX5Ky92BV8VhA3xjs2R992AvA
+* Unit 3 Lecture: https://colab.research.google.com/drive/1jB1_uX943FWZ47_rMoIyMUMHZ1MjUo4Z
+* Unit 3 Homework: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
+* Unit 4 Lecture: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
+* Unit 4 Homework: https://colab.research.google.com/drive/1hyZavws_wH39popTib7jpEWV_gdNx87X
+* Unit 5 Lecture: https://colab.research.google.com/drive/1j320zGPJMl1imDznSUceVFB7n41lzWU3
+* Unit 5 Homework: https://colab.research.google.com/drive/1cRJEOI86OgghAkxoCLGe6YLxDHQCfrAf
+* Unit 6 Lecture: https://colab.research.google.com/drive/1u2FkH2Vss8K93XDEyIu-9YwX8JYa8jkS
+* Unit 6 Homework: https://colab.research.google.com/drive/1QhV6Z5D1mppu22vp9-OPP-pwG97Hai88
+* Unit 7 Lecture: https://colab.research.google.com/drive/1-b0Xy1b8jd0x8T8LQmfoY1Ha1Y3L9HkC
+* Unit 7 Homework: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
+* Unit 8 Lecture: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
+* Unit 8 Homework: https://colab.research.google.com/drive/1BritChnHiQuHtopqHS_6HRV2l2MoTNPg
+* Unit 9 Lecture: https://colab.research.google.com/drive/1oXQ05dB3z0qsxAvKbeIky3sL5C1vKhcO
+* Unit 9 Homework: https://colab.research.google.com/drive/1cvRcUWon3Nh1ObE80sR6b1HzhxQD19gD
+* Unit 10 Lecture: https://colab.research.google.com/drive/11n1RRV1qnSgzfuagqFFgZ5V7ZV-mVT6h
+* Unit 10 Homework: https://colab.research.google.com/drive/1WePxxyTM8P-zgREJ90UklestfbYmjvlW
 
 ---
 
