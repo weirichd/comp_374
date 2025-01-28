@@ -64,6 +64,12 @@ The point breakdown is
 * Final Exam: https://colab.research.google.com/drive/1GrX9VQZ3sktt7G32XFhYxUtW7m9DWisw
 * Midterm Exam: https://colab.research.google.com/drive/1XipW_m8YTwbg5CkB3tmNHLgDuI4T_gG7
 
+# Textbook
+
+* Module 1 covers Chapter 14 and Chapter 2
+* Modules 2, 3, and 4 cover Chapter 1
+* Modules 5 and 6 cover Chapter 3
+* Modules 7, 8 and 9 cover Chapeter 6
 
 
 # Unit 1: Introduction
@@ -428,6 +434,11 @@ By the end of this week, students should be able to:
 - Critically assess the ethical implications of deploying AI systems in various domains.
 
 This module provides students with the tools to critically evaluate and address the ethical challenges posed by AI, preparing them for responsible AI development in their future careers.
+
+### Supplamental Material
+
+https://www.youtube.com/watch?v=bJLcIBixGj8&t=63s
+https://www.youtube.com/watch?v=qV_rOlHjvvs
 
 # Final Exam
 
