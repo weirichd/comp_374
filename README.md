@@ -44,7 +44,7 @@ The point breakdown is
 * Unit 2 Homework: https://colab.research.google.com/drive/1_J53ma0yX5Ky92BV8VhA3xjs2R992AvA
 * Unit 3 Lecture: https://colab.research.google.com/drive/1jB1_uX943FWZ47_rMoIyMUMHZ1MjUo4Z
 * Unit 3 Homework: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
-* Unit 4 Lecture: https://colab.research.google.com/drive/1IY6U0-uZW1cwf-BZQMoCAObbNAqgNkgt
+* Unit 4 Lecture: https://colab.research.google.com/drive/1GJrEeh0Y4fY_xElSaSJqiOKty1VM8Hu3
 * Unit 4 Homework: https://colab.research.google.com/drive/1hyZavws_wH39popTib7jpEWV_gdNx87X
 * Unit 5 Lecture: https://colab.research.google.com/drive/1j320zGPJMl1imDznSUceVFB7n41lzWU3
 * Unit 5 Homework: https://colab.research.google.com/drive/1cRJEOI86OgghAkxoCLGe6YLxDHQCfrAf
@@ -52,7 +52,7 @@ The point breakdown is
 * Unit 6 Homework: https://colab.research.google.com/drive/1QhV6Z5D1mppu22vp9-OPP-pwG97Hai88
 * Unit 7 Lecture: https://colab.research.google.com/drive/1-b0Xy1b8jd0x8T8LQmfoY1Ha1Y3L9HkC
 * Unit 7 Homework: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
-* Unit 8 Lecture: https://colab.research.google.com/drive/1bpdT747nFO7MRzpOemqzsmzKBJhFrX-J
+* Unit 8 Lecture: https://colab.research.google.com/drive/1dll9QYaQKSa0A7p1eYcdHGjxKpySu0UD
 * Unit 8 Homework: https://colab.research.google.com/drive/1BritChnHiQuHtopqHS_6HRV2l2MoTNPg
 * Unit 9 Lecture: https://colab.research.google.com/drive/1oXQ05dB3z0qsxAvKbeIky3sL5C1vKhcO
 * Unit 9 Homework: https://colab.research.google.com/drive/1cvRcUWon3Nh1ObE80sR6b1HzhxQD19gD
@@ -438,6 +438,7 @@ This module provides students with the tools to critically evaluate and address 
 ### Supplamental Material
 
 https://www.youtube.com/watch?v=bJLcIBixGj8&t=63s
+
 https://www.youtube.com/watch?v=qV_rOlHjvvs
 
 # Final Exam
