@@ -2,6 +2,9 @@
 
 FROM tensorflow/tensorflow:latest-gpu-jupyter
 
+# Suppress unnecessary TensorFlow logs
+ENV TF_ENABLE_ONEDNN_OPTS=0
+ENV TF_CPP_MIN_LOG_LEVEL=3
 
 
 # Set environment variables for CUDA
