@@ -1,17 +1,13 @@
-# Start with the TensorFlow GPU Jupyter image
-
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+# Use TensorFlow GPU image with Jupyter support
+FROM tensorflow/tensorflow:2.17.0-gpu-jupyter
 
 # Suppress unnecessary TensorFlow logs
 ENV TF_ENABLE_ONEDNN_OPTS=0
 ENV TF_CPP_MIN_LOG_LEVEL=3
 
-
 # Set environment variables for CUDA
-ENV CUDA_VERSION=12.3
-ENV CUDNN_VERSION=9
-ENV PATH="/usr/local/cuda-${CUDA_VERSION}/bin:${PATH}"
-ENV LD_LIBRARY_PATH="/usr/local/cuda-${CUDA_VERSION}/lib64:${LD_LIBRARY_PATH}"
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
 
 # Upgrade pip and install dependencies
 WORKDIR /workspace
@@ -21,5 +17,6 @@ COPY requirements.txt .
 
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
-# Verify installation
-RUN python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+# Start Jupyter Notebook when container runs
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+
