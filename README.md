@@ -264,7 +264,6 @@ Building on the basics, this week covers advanced techniques for CNNs, including
 
 ## Relevance and Applications
 Advanced CNN techniques enable more complex real-world applications:
-- **Weight visualization** provides insights into how CNNs learn to detect features like edges and shapes.
 - **Object detection** is critical in fields such as video analysis and autonomous vehicles.
 - **Multi-input models** are used in applications requiring combined data sources, such as combining images with metadata.
 
@@ -272,18 +271,15 @@ These techniques expand the versatility and interpretability of CNN-based models
 
 ## Module Outcomes
 By the end of this week, students should be able to:
-1. Visualize CNN weights to interpret learned features.
-2. Implement object detection tasks with bounding rectangles.
-3. Build and train multi-input models using concatenation layers in Keras.
+1. Implement object detection tasks with bounding rectangles.
+2. Build and train multi-input models using concatenation layers in Keras.
 
 ## Key Vocabulary
-- **Weight Visualization**: A technique for inspecting the filters learned by CNNs to understand how they process input data.
 - **Bounding Rectangle**: A box drawn around an object in an image to indicate its detected location.
 - **Object Detection**: The task of identifying and localizing objects within an image.
 - **Concatenation Layer**: A neural network layer which combines tensors into one larger tensor for multi-input models.
 
 ## Indicators of Mastery
-- Visualize and interpret CNN weights to understand feature learning.
 - Implement object detection with bounding rectangles for identifying objects in images.
 - Build and train multi-input models using concatenation layers in Keras.
 

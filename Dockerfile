@@ -15,6 +15,7 @@ USER root
 
 COPY requirements.txt .
 
+RUN apt-get update && apt-get install -y graphviz
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 # Start Jupyter Notebook when container runs
