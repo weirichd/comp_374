@@ -3,4 +3,6 @@ tags
 *.zip
 *.pkl
 *.keras
-*secret*
+client_secret.json
+token.json
+venv
