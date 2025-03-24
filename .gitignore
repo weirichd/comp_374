@@ -3,3 +3,4 @@ tags
 *.zip
 *.pkl
 *.keras
+*secret*
